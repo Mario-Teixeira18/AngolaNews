@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angola News - Sua fonte de notícias Angolanas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="style.js">
+    <link rel="stylesheet" href="script.js">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho do site -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Angola News</h1>
+                    <p>Notícias Nacionais </p>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" class="active">Início</a></li>
+                        <li><a href="polit.html">Política</a></li>
+                        <li><a href="econo.html">Economia</a></li>
+                        <li><a href="espo.html">Esportes</a></li>
+                        <li><a href="educ.html">Educação</a></li>
+                        
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção principal com notícia em destaque -->
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="featured-news">
+                        <div class="news-image">
+                            <img src="img/foto0.jpg" alt="Notícia em destaque">
+                        </div>
+                        <div class="news-content">
+                            <span class="news-category">Política</span>
+                            <h2>Isaías Samakuva critica economia colonial de Angola e percusro em 50 
+                                anos de independência </h2>
+                            <p>O ex-presidente da UNITA Isaías Samakuva criticou hoje o passado da economia colonial de Angola e o que não foi feito em 50 anos de independência, defendendo ~
+                                para o país uma economia com patriotismo, solidariedade, descentralização e ética.</p>
+                            <div class="news-meta">
+                                <span class="news-date"></span>
+                                <span class="news-author"></span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de notícias recentes -->
+        <section class="recent-news">
+            <div class="container">
+                <h2 class="section-title">Notícias Recentes</h2>
+                <div class="news-grid">
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="img/foto2.jpg" alt="Economia local">
+                        </div>
+                        <div class="news-content">
+                            <span class="news-category">Economia</span>
+                            <h3>Acordo com Emirados Árabes Unidos</h3>
+                            <p> Angola e Emirados Árabes Unidos firmaram acordos de 6,5 bilhões de dólares para acelerar a diversificação econômica do país. 
+Esse acordo visa impulsionar o crescimento econômico angolano através do investimento em setores não petrolíferos.</p>
+                            <div class="news-meta">
+                                <span class="news-date"></span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="img/foto1.jpg" alt="Esportes">
+                        </div>
+                        <div class="news-content">
+                            <span class="news-category">Esportes</span>
+                            <h3>Angola se torna campeão do AfroBasket</h3>
+                            <p>A seleção angolana venceu o Mali por 78 a 43 na final, no Pavilhão do Kilamba, e conquistou seu 12º título africano, após 12 anos. 
+                            O Presidente João Lourenço acompanhou a vitória e cada jogador recebeu 25 milhões de kwanzas do BAI como prêmio.</p>
+                            <div class="news-meta">
+                                <span class="news-date"></span>
+                            </div>
+                        </div>
+                    </article>
+
+                 
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="img/foto3.jpg" alt="Educação">
+                        </div>
+                        <div class="news-content">
+                            <span class="news-category">Educação</span>
+                            <h3>Concurso Público para Professores</h3>
+                            <p>A Ministra da Educação, Maria Luísa Grilo, anunciou que pode haver um concurso público para admissão de novos professores ainda este ano. Isso se deve à construção de 56 novas escolas em todo o país, no âmbito do Projeto de Empoderamento das Raparigas e Aprendizagem para Todos (PAT). A ministra destacou que é necessário cumprir alguns requisitos, 
+                                incluindo a aprovação do orçamento pelo Ministério das Finanças.</p>
+                            <div class="news-meta">
+                                <span class="news-date"></span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de categorias -->
+        <section class="categories-section">
+            <div class="container">
+                <h2 class="section-title">Categorias</h2>
+                <div class="categories-grid">
+                    <div class="category-card" id="política">
+                        <div class="category-icon">🏛️</div>
+                        <h3>Política</h3>
+                        <p>Notícias sobre política nacional</p>
+                        <a href="polit.html" class="category-link">Ver notícias</a>
+                    </div>
+                    <div class="category-card" id="economia">
+                        <div class="category-icon">💰</div>
+                        <h3>Economia</h3>
+                        <p>Análises econômicas e notícias do mercado</p>
+                        <a href="econo.html" class="category-link">Ver notícias</a>
+                    </div>
+                    <div class="category-card" id="esportes">
+                        <div class="category-icon">⚽</div>
+                        <h3>Esportes</h3>
+                        <p>Resultados esportivos e eventos </p>
+                        <a href="espo.html" class="category-link">Ver notícias</a>
+                    </div>
+                     <div class="category-card" id="educação">
+                        <div class="category-icon">🧑‍🏫</div>
+                        <h3>Educação</h3>
+                        <p>Notícias sobre Educação Angolana </p>
+                        <a href="educ.html" class="category-link">Ver notícias</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de newsletter -->
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Fique por dentro das notícias</h2>
+                    <p>Inscreva-se para receber as principais notícias de Angola diretamente no seu email</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu email" required>
+                        <button type="submit">Inscrever-se</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé do site -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Angola News</h3>
+                    <p>Sua fonte confiável de notícias em Angola.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="polit.html">Política</a></li>
+                        <li><a href="econo.html">Economia</a></li>
+                        <li><a href="educ.html">Educação</a></li>
+                        <li><a href="espo.html">Esportes</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-section" id="contact">
+                    <h4>Contato</h4>
+                    <p>Email: contato@Angolanews.com</p>
+                    <p>Telefone: +244 923 456 789</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;  Angola News. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
